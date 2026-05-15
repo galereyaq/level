@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1e1a16">
+<meta name="description" content="ЖК LEVEL — авторский жилой комплекс в Алматы от Galereya Qurylys. Сдача I квартал 2027. Планировки 33–72 м². Рассрочка 0%. +7 (705) 924-92-01">
+<title>ЖК LEVEL — На уровень выше | Galereya Qurylys</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="hero-bg.jpg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about"     onclick="closeMobileMenu()">О комплексе</a>
+  <a href="#plans"     onclick="closeMobileMenu()">Планировки</a>
+  <a href="#developer" onclick="closeMobileMenu()">Застройщик</a>
+  <a href="#location"  onclick="closeMobileMenu()">Локация</a>
+  <a href="#finance"   onclick="closeMobileMenu()">Условия</a>
+  <a href="tel:+77059249201" class="mobile-menu-cta">📞 Позвонить</a>
+</div>
+
+<!-- MOBILE BOTTOM CALL BAR -->
+<div class="mobile-call-bar">
+  <a href="tel:+77059249201">📞 +7 (705) 924-92-01 · Бесплатно</a>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a class="nav-logo" href="#">
+    <img src="logo.png" alt="LEVEL by Galereya Qurylys" class="nav-logo-img">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">О комплексе</a></li>
+    <li><a href="#plans">Планировки</a></li>
+    <li><a href="#developer">Застройщик</a></li>
+    <li><a href="#location">Локация</a></li>
+    <li><a href="#finance">Условия</a></li>
+  </ul>
+  <a class="nav-cta" href="tel:+77059249201">+7 (705) 924-92-01</a>
+  <button class="nav-burger" id="navBurger" onclick="toggleMobileMenu()" aria-label="Меню">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══════════ HERO ══════════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Galereya Qurylys · Алматы · 2027</div>
+    <h1 class="hero-title">На уровень<br><em>выше</em></h1>
+    <p class="hero-desc">LEVEL — авторский жилой комплекс, созданный как бутиковое пространство. 4 блока, 6 этажей, террасы с видом на Заилийский Алатау. Каждый метр работает на ваш уровень жизни.</p>
+    <div class="hero-stats">
+      <div class="hs"><span class="hs-num">2027</span><span class="hs-lbl">I квартал сдачи</span></div>
+      <div class="hs"><span class="hs-num">4</span><span class="hs-lbl">Блока</span></div>
+      <div class="hs"><span class="hs-num">6</span><span class="hs-lbl">Этажей</span></div>
+      <div class="hs"><span class="hs-num">0%</span><span class="hs-lbl">Рассрочка</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ КОНЦЕПЦИЯ ══════════ -->
+<section id="about" class="sec-intro">
+  <div class="intro-img">
+    <img src="intro.jpg" alt="Семья в квартире LEVEL">
+    <div class="intro-badge">
+      <p>«Среда для спокойной жизни — где каждый метр создан для вас»</p>
+    </div>
+  </div>
+  <div>
+    <div class="sec-label"><span class="tag">Концепция проекта</span></div>
+    <h2 class="sec-title">Бутиковый<br>комплекс — <em>не просто слова</em></h2>
+    <p class="sec-body">LEVEL создан как камерное пространство: 4 блока вокруг закрытого двора без машин, детские площадки 3–7 лет (152 м²) и 7–14 лет (110 м²), воркаут-зона 89 м², террасы на крышах с видом на горы, коворкинг с бронированием.</p>
+    <div class="intro-pills">
+      <span class="pill">Двор без машин</span>
+      <span class="pill">Террасы с видом на горы</span>
+      <span class="pill">Коворкинг</span>
+      <span class="pill">Сейсмоустойчивость 9 баллов</span>
+      <span class="pill">Резервный генератор</span>
+      <span class="pill">Smart-замки</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ ГАЛЕРЕЯ ══════════ -->
+<div class="gallery-section" id="gallery">
+  <div class="gallery-header">
+    <div class="sec-label"><span class="tag">Комплекс изнутри и снаружи</span></div>
+    <h2 class="sec-title">Каким будет<br><em>ваш дом</em></h2>
+  </div>
+  <div class="gallery-grid">
+    <div class="g-item g-large">
+      <img src="facade-day.jpg" alt="Фасад ЖК LEVEL днём">
+      <div class="g-cap">Главный фасад</div>
+    </div>
+    <div class="g-item">
+      <img src="courtyard.jpg" alt="Двор LEVEL">
+      <div class="g-cap">Двор без машин</div>
+    </div>
+    <div class="g-item">
+      <img src="terrace-day.jpg" alt="Терраса с видом на горы">
+      <div class="g-cap">Терраса · вид на Алатау</div>
+    </div>
+    <div class="g-item">
+      <img src="lobby.jpg" alt="Лобби LEVEL">
+      <div class="g-cap">Лобби</div>
+    </div>
+    <div class="g-item">
+      <img src="corridor.jpg" alt="Коридор этажа">
+      <div class="g-cap">Общий коридор</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ ЦИФРЫ ЗАСТРОЙЩИКА ══════════ -->
+<section id="numbers" class="sec-dark">
+  <div>
+    <div class="sec-label"><span class="tag" style="color:var(--gold-light)">Galereya Qurylys</span></div>
+    <h2 class="sec-title">За LEVEL стоит<br><em>реальный опыт</em></h2>
+    <p class="sec-body">Galereya Qurylys — девелопер, выросший из 8 лет работы на первичном рынке Казахстана. LEVEL — первый авторский проект. Они знают изнутри, что такое «хорошо построено».</p>
+  </div>
+  <div class="num-grid">
+    <div class="num-card"><div class="num-big">150+</div><div class="num-label">Жилых проектов, в которых участвовала команда</div></div>
+    <div class="num-card"><div class="num-big">8 лет</div><div class="num-label">На первичном рынке недвижимости Казахстана</div></div>
+    <div class="num-card"><div class="num-big">40+</div><div class="num-label">Строительных компаний — партнёров и подрядчиков</div></div>
+    <div class="num-card"><div class="num-big">60+</div><div class="num-label">Проектов с прямым влиянием на продуктовые решения</div></div>
+  </div>
+</section>
+
+<!-- ══════════ ФОРМАТ ══════════ -->
+<section id="format" class="sec-warm">
+  <div>
+    <div class="sec-label"><span class="tag">Формат комплекса</span></div>
+    <h2 class="sec-title">Пространство,<br>продуманное <em>до деталей</em></h2>
+  </div>
+  <div class="format-grid">
+    <div class="format-item">
+      <div class="fi-num">01</div>
+      <div>
+        <div class="fi-title">Террасы — только для своих</div>
+        <p class="fi-desc">На крышах блоков: рабочая зона с видом на горы, место для йоги, лаунж. Доступ только для жителей — лифт прямо на крышу. Ради этого обычно едут в кафе. Здесь — в 30 секундах от квартиры.</p>
+      </div>
+    </div>
+    <div class="format-item">
+      <div class="fi-num">02</div>
+      <div>
+        <div class="fi-title">Коворкинг с бронированием</div>
+        <p class="fi-desc">Полноценный офис внутри ЖК. Система личного бронирования, Wi-Fi, розетки. Для удалённой работы, фриланса или важных встреч без поездки через город.</p>
+      </div>
+    </div>
+    <div class="format-item">
+      <div class="fi-num">03</div>
+      <div>
+        <div class="fi-title">Архитектура подчинена свету</div>
+        <p class="fi-desc">Дома расположены так, чтобы квартиры наполнялись солнцем, а из окон открывались виды на Заилийский Алатау. Золотые обрамления окон — эстетика, которая не устаревает.</p>
+      </div>
+    </div>
+    <div class="format-item">
+      <div class="fi-num">04</div>
+      <div>
+        <div class="fi-title">Фундамент надёжности</div>
+        <p class="fi-desc">Монолитный каркас, газоблоки, минеральная плита, котлован 7 метров. Сейсмоустойчивость 9 баллов. Резервный генератор — лифты и видеонаблюдение при отключении света.</p>
+      </div>
+    </div>
+    <div class="format-item">
+      <div class="fi-num">05</div>
+      <div>
+        <div class="fi-title">Закрытая экосистема безопасности</div>
+        <p class="fi-desc">КПП, шлагбаумы, двор без машин, видеонаблюдение 24/7, умные замки, видеодомофоны. Пешеходные маршруты безопасны и интуитивно понятны.</p>
+      </div>
+    </div>
+    <div class="format-item">
+      <div class="fi-num">06</div>
+      <div>
+        <div class="fi-title">Коммерция на первом этаже</div>
+        <p class="fi-desc">Аптека, мини-маркет, сервисные точки прямо в доме. Холлы — благородные материалы, атмосфера премиального отеля. На −1 этаже колясочные и индивидуальные кладовые.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ ТЕРРАСА — ЯКОРНОЕ ПРЕИМУЩЕСТВО ══════════ -->
+<section class="terrace-hero">
+  <div class="th-bg" style="background-image:url('terrace-night.jpg')"></div>
+  <div class="th-overlay"></div>
+  <div class="th-content">
+    <div class="sec-label"><span class="tag" style="color:var(--gold-light)">Эксклюзивно для жителей</span></div>
+    <h2 class="sec-title" style="color:#fff;max-width:580px;">Терраса с видом<br>на <em>Заилийский Алатау</em></h2>
+    <p style="font-size:clamp(14px,1.5vw,17px);color:rgba(255,255,255,.7);max-width:500px;line-height:1.75;margin-bottom:36px;">На крышах блоков LEVEL — пространства, ради которых обычно едут в город. Рабочая зона под навесом, место для йоги, лаунж. Подняться на лифте — и вы уже там.</p>
+    <div class="th-facts">
+      <div class="th-fact"><span>☀️</span><div><strong>Панорамный офис</strong><p>Работа с видом на горы под навесом</p></div></div>
+      <div class="th-fact"><span>🧘</span><div><strong>Территория здоровья</strong><p>Йога и медитация на высоте</p></div></div>
+      <div class="th-fact"><span>🌙</span><div><strong>Вечерний лаунж</strong><p>Закаты с Алатау — каждый вечер</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ ДВОР + ГЕНПЛАН ══════════ -->
+<div class="split-visual">
+  <div class="sv-item">
+    <img src="aerial.jpg" alt="Аэровид ЖК LEVEL">
+    <div class="sv-caption">
+      <h3>Территория жизни</h3>
+      <p>4 блока, закрытый двор, детские площадки, воркаут-зона — продумано с чёткой логикой</p>
+    </div>
+  </div>
+  <div class="sv-item">
+    <img src="genplan.jpg" alt="Генплан ЖК LEVEL">
+    <div class="sv-caption">
+      <h3>Генплан комплекса</h3>
+      <p>Детская площадка 3–7 лет 152 м², 7–14 лет 110 м², Воркаут 89 м², беседки, террасы</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ ПЛАНИРОВКИ ══════════ -->
+<section id="plans">
+  <div>
+    <div class="sec-label"><span class="tag">Планировки Level</span></div>
+    <h2 class="sec-title">Архитектура<br><em>здравого смысла</em></h2>
+    <p class="sec-body">Меньше тёмных коридоров — больше жилой площади. Каждый метр оправдан вашими потребностями. Для каждой планировки доступны 3D-туры в стилях Scandi и Elegance.</p>
+  </div>
+  <div class="plans-grid">
+
+    <div class="plan-card">
+      <div class="plan-card-img"><img src="plan-33.7.jpg" alt="Планировка 33,7 м²" decoding="async"></div>
+      <div class="plan-card-body">
+        <div class="plan-card-head"><h3>1-комнатная</h3><span class="plan-card-sqm">33,7 м²</span></div>
+        <div class="plan-card-sub">Блок 2 · Студийный формат</div>
+        <div class="plan-card-specs">
+          <div class="pcs"><span>25,2 м²</span><small>Кухня-гостиная</small></div>
+          <div class="pcs"><span>4,8 м²</span><small>Санузел</small></div>
+          <div class="pcs"><span>3,7 м²</span><small>Холл</small></div>
+          <div class="pcs"><span>Smart</span><small>Входная дверь</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="plan-card">
+      <div class="plan-card-img"><img src="plan-38.8.jpg" alt="Планировка 38,8 м²" decoding="async"></div>
+      <div class="plan-card-body">
+        <div class="plan-card-head"><h3>1-комнатная</h3><span class="plan-card-sqm">38,8 м²</span></div>
+        <div class="plan-card-sub">Блок 2 · Классическая</div>
+        <div class="plan-card-specs">
+          <div class="pcs"><span>17,5 м²</span><small>Кухня-гостиная</small></div>
+          <div class="pcs"><span>10,3 м²</span><small>Спальня</small></div>
+          <div class="pcs"><span>6,8 м²</span><small>Холл</small></div>
+          <div class="pcs"><span>4,2 м²</span><small>Санузел</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="plan-card">
+      <div class="plan-card-img"><img src="plan-52.7.jpg" alt="Планировка 52,7 м²" decoding="async"></div>
+      <div class="plan-card-body">
+        <div class="plan-card-head"><h3>2-комнатная</h3><span class="plan-card-sqm">52,7 м²</span></div>
+        <div class="plan-card-sub">Блок 4 · Просторная</div>
+        <div class="plan-card-specs">
+          <div class="pcs"><span>26,7 м²</span><small>Кухня-гостиная</small></div>
+          <div class="pcs"><span>15,7 м²</span><small>Спальня</small></div>
+          <div class="pcs"><span>6,5 м²</span><small>Холл</small></div>
+          <div class="pcs"><span>3,8 м²</span><small>Санузел</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="plan-card">
+      <div class="plan-card-img"><img src="plan-63.9.jpg" alt="Планировка 63,9 м²" decoding="async"></div>
+      <div class="plan-card-body">
+        <div class="plan-card-head"><h3>2-комнатная</h3><span class="plan-card-sqm">63,9 м²</span></div>
+        <div class="plan-card-sub">Блок 4 · Семейная</div>
+        <div class="plan-card-specs">
+          <div class="pcs"><span>24,1 м²</span><small>Кухня-гостиная</small></div>
+          <div class="pcs"><span>17,8 м²</span><small>Спальня 1</small></div>
+          <div class="pcs"><span>16,2 м²</span><small>Спальня 2</small></div>
+          <div class="pcs"><span>6,4 м²</span><small>Холл</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="plan-card">
+      <div class="plan-card-img"><img src="plan-67.6.jpg" alt="Планировка 67,6 м²" decoding="async"></div>
+      <div class="plan-card-body">
+        <div class="plan-card-head"><h3>2-комнатная</h3><span class="plan-card-sqm">67,6 м²</span></div>
+        <div class="plan-card-sub">Блок 4 · Просторная</div>
+        <div class="plan-card-specs">
+          <div class="pcs"><span>24,1 м²</span><small>Кухня-гостиная</small></div>
+          <div class="pcs"><span>17,8 м²</span><small>Спальня 1</small></div>
+          <div class="pcs"><span>16,2 м²</span><small>Спальня 2</small></div>
+          <div class="pcs"><span>6,4 м²</span><small>Холл</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="plan-card">
+      <div class="plan-card-img"><img src="plan-72.5.jpg" alt="Планировка 72,5 м²" decoding="async"></div>
+      <div class="plan-card-body">
+        <div class="plan-card-head"><h3>3-комнатная</h3><span class="plan-card-sqm">72,5 м²</span></div>
+        <div class="plan-card-sub">Блок 3 · Для семьи</div>
+        <div class="plan-card-specs">
+          <div class="pcs"><span>18,6 м²</span><small>Гостиная</small></div>
+          <div class="pcs"><span>17,7 м²</span><small>Спальня 1</small></div>
+          <div class="pcs"><span>13,8 м²</span><small>Спальня 2</small></div>
+          <div class="pcs"><span>12,6 м²</span><small>Кухня · 2 санузла</small></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════ ИНФРАСТРУКТУРА ══════════ -->
+<section id="infra" class="sec-parchment">
+  <div>
+    <div class="sec-label"><span class="tag">Инфраструктура</span></div>
+    <h2 class="sec-title">Место<br><em>счастливых моментов</em></h2>
+    <p class="sec-body">Мы превратили придомовую территорию в многоуровневое пространство для отдыха, спорта и общения.</p>
+  </div>
+  <div class="infra-photos">
+    <div class="ip-card ip-large">
+      <img src="terrace-work.jpg" alt="Терраса — рабочая зона">
+      <div class="ip-text"><h4>Террасы на крышах</h4><p>Рабочая зона, йога, лаунж с видом на горы</p></div>
+    </div>
+    <div class="ip-card">
+      <img src="coworking.jpg" alt="Коворкинг">
+      <div class="ip-text"><h4>Коворкинг</h4><p>Личное бронирование — офис в 30 секундах</p></div>
+    </div>
+    <div class="ip-card">
+      <img src="playground.jpg" alt="Детская площадка">
+      <div class="ip-text"><h4>Детские площадки</h4><p>3–7 лет: 152 м² · 7–14 лет: 110 м²</p></div>
+    </div>
+    <div class="ip-card">
+      <img src="security.jpg" alt="КПП безопасность">
+      <div class="ip-text"><h4>Безопасность 24/7</h4><p>КПП, шлагбаумы, умные замки, видеонаблюдение</p></div>
+    </div>
+    <div class="ip-card">
+      <img src="lobby.jpg" alt="Лобби">
+      <div class="ip-text"><h4>Лобби как в отеле</h4><p>Благородные материалы, продуманное освещение</p></div>
+    </div>
+    <div class="ip-card">
+      <img src="mailbox.jpg" alt="Подъезд">
+      <div class="ip-text"><h4>Продуманный подъезд</h4><p>Чёткая навигация, дизайнерская отделка</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ СТРОИТЕЛЬСТВО ══════════ -->
+<section id="build" class="build-section">
+  <div class="build-img-wrap">
+    <img class="build-main-img" src="building-cut.jpg" alt="Конструктив ЖК LEVEL">
+    <div class="build-badge-wrap">
+      <div class="bb-num">9</div>
+      <div class="bb-txt">баллов сейсмоустойчивость</div>
+    </div>
+  </div>
+  <div>
+    <div class="sec-label"><span class="tag">Надёжность</span></div>
+    <h2 class="sec-title">Фундамент<br><em>уверенности</em></h2>
+    <p class="sec-body">Мы строим LEVEL так, чтобы ваша уверенность в доме была максимальной. Каждое инженерное решение направлено на долговечность.</p>
+    <div class="build-list">
+      <div class="bi"><div class="bi-dot">✦</div><div class="bi-text"><strong>Монолитный каркас + газоблоки</strong><span>Конструкция на десятилетия. Отличная тепло- и шумоизоляция.</span></div></div>
+      <div class="bi"><div class="bi-dot">✦</div><div class="bi-text"><strong>Минеральная плита, котлован 7 метров</strong><span>Глубокое основание и современная теплозащита фасада.</span></div></div>
+      <div class="bi"><div class="bi-dot">✦</div><div class="bi-text"><strong>Собственный тепловой пункт и насосная</strong><span>Стабильный напор воды и температура независимо от городских сетей.</span></div></div>
+      <div class="bi"><div class="bi-dot">✦</div><div class="bi-text"><strong>Резервный генератор</strong><span>Лифты, освещение, видеонаблюдение — работают при отключении электричества.</span></div></div>
+      <div class="bi"><div class="bi-dot">✦</div><div class="bi-text"><strong>Smart-замки и алюминиевый профиль окон</strong><span>Основа для вашего будущего интерьера уже готова.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ ЗАСТРОЙЩИК ══════════ -->
+<section id="developer" class="sec-parchment">
+  <div>
+    <div class="sec-label"><span class="tag">О застройщике</span></div>
+    <h2 class="sec-title">Galereya Qurylys —<br><em>уверенность в каждом метре</em></h2>
+  </div>
+  <div class="dev-grid">
+    <div>
+      <blockquote class="dev-quote">«Мы сопровождали сделки, консультировали покупателей, анализировали проекты — от концепции до реальной эксплуатации. Этот опыт стал основой Galereya Qurylys»</blockquote>
+      <div class="dev-metrics">
+        <div class="dm"><div class="dm-num">8 лет</div><div class="dm-lbl">На первичном рынке</div></div>
+        <div class="dm"><div class="dm-num">150+</div><div class="dm-lbl">Жилых проектов команды</div></div>
+        <div class="dm"><div class="dm-num">40+</div><div class="dm-lbl">Партнёров и подрядчиков</div></div>
+        <div class="dm"><div class="dm-num">60+</div><div class="dm-lbl">Проектов с влиянием на продукт</div></div>
+      </div>
+      <div class="dev-bridge">
+        <div style="font-size:20px;flex-shrink:0">🤝</div>
+        <div class="dev-bridge-txt">
+          <p>Galereya Qurylys × Галерея Новостроек</p>
+          <p>В LEVEL перенесён весь опыт Галереи Новостроек — от планировок до клиентского сервиса. Каждое решение основано на глубоком понимании рынка.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="dev-principles">
+        <div class="dp"><div class="dp-icon">🔍</div><div><strong>Глубокое понимание рынка</strong><span>150+ реализованных проектов. Только решения, которые доказали эффективность.</span></div></div>
+        <div class="dp"><div class="dp-icon">📍</div><div><strong>Локальность</strong><span>Строим в городе, который досконально знаем. Проекты органично вписаны в среду района.</span></div></div>
+        <div class="dp"><div class="dp-icon">🏛️</div><div><strong>Бутиковость и камерность</strong><span>100% контроль качества и по-настоящему приватная атмосфера для жителей.</span></div></div>
+        <div class="dp"><div class="dp-icon">✅</div><div><strong>Уверенность и предсказуемость</strong><span>Совпадение ожиданий и реальности — базовый принцип. Всё фиксируется на старте.</span></div></div>
+        <div class="dp"><div class="dp-icon">🏠</div><div><strong>Сдача дома — только начало</strong><span>Репутация измеряется вашим комфортом долгие годы после переезда.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ ЛОКАЦИЯ ══════════ -->
+<section id="location" class="sec-ivory">
+  <div>
+    <div class="sec-label"><span class="tag">Локация</span></div>
+    <h2 class="sec-title">В эпицентре<br><em>развития</em></h2>
+    <p class="sec-body">Район с удобной логистикой и быстрым доступом к центру продолжает активно развиваться. Новая инфраструктура усиливает потенциал локации.</p>
+  </div>
+  <div class="loc-cats">
+    <button class="lcat active" onclick="switchLoc('kids')">Для детей</button>
+    <button class="lcat"        onclick="switchLoc('home')">Для дома</button>
+    <button class="lcat"        onclick="switchLoc('family')">Для семьи</button>
+    <button class="lcat"        onclick="switchLoc('health')">Для здоровья</button>
+  </div>
+  <div class="loc-items" id="loc-kids">
+    <div class="li-card"><div class="li-dist">7 мин</div><div class="li-name">Школа №31 им. Аль-Фараби</div><div class="li-sub">Общеобразовательная</div></div>
+    <div class="li-card"><div class="li-dist">7 мин</div><div class="li-name">Школа №13</div><div class="li-sub">Общеобразовательная</div></div>
+    <div class="li-card"><div class="li-dist">10 мин</div><div class="li-name">Өдемі</div><div class="li-sub">Частный детский сад</div></div>
+    <div class="li-card"><div class="li-dist">10 мин</div><div class="li-name">Happy Kids World</div><div class="li-sub">Детский сад</div></div>
+    <div class="li-card"><div class="li-dist">12 мин</div><div class="li-name">Школа №220</div><div class="li-sub">Общеобразовательная</div></div>
+    <div class="li-card"><div class="li-dist">12 мин</div><div class="li-name">Мариям апа</div><div class="li-sub">Частный детский сад</div></div>
+  </div>
+  <div class="loc-items" id="loc-home" style="display:none">
+    <div class="li-card"><div class="li-dist">2 мин</div><div class="li-name">Магазины у дома</div><div class="li-sub">Ежедневные покупки</div></div>
+    <div class="li-card"><div class="li-dist">10 мин</div><div class="li-name">ТРЦ Aport East</div><div class="li-sub">Крупный торговый центр</div></div>
+    <div class="li-card"><div class="li-dist">25 мин</div><div class="li-name">Центр Алматы</div><div class="li-sub">Быстрый доступ</div></div>
+    <div class="li-card"><div class="li-dist">5 мин</div><div class="li-name">Аэропорт ALA</div><div class="li-sub">Международный</div></div>
+    <div class="li-card"><div class="li-dist">5 мин</div><div class="li-name">Рестораны и кафе</div><div class="li-sub">Разнообразный выбор</div></div>
+    <div class="li-card"><div class="li-dist">—</div><div class="li-name">Офис продаж</div><div class="li-sub">ул. Гоголя, 20, Алматы</div></div>
+  </div>
+  <div class="loc-items" id="loc-family" style="display:none">
+    <div class="li-card"><div class="li-dist">10 мин</div><div class="li-name">Парки и скверы</div><div class="li-sub">Зелёные зоны отдыха</div></div>
+    <div class="li-card"><div class="li-dist">40 мин</div><div class="li-name">Шымбулак</div><div class="li-sub">Горнолыжный курорт</div></div>
+    <div class="li-card"><div class="li-dist">35 мин</div><div class="li-name">Медеу</div><div class="li-sub">Высокогорный каток</div></div>
+    <div class="li-card"><div class="li-dist">20 мин</div><div class="li-name">Зоопарк Алматы</div><div class="li-sub">Семейный досуг</div></div>
+    <div class="li-card"><div class="li-dist">30 мин</div><div class="li-name">Парк Первого Президента</div><div class="li-sub">Прогулки и спорт</div></div>
+    <div class="li-card"><div class="li-dist">10 мин</div><div class="li-name">Кинотеатры и ТРЦ</div><div class="li-sub">Развлечения</div></div>
+  </div>
+  <div class="loc-items" id="loc-health" style="display:none">
+    <div class="li-card"><div class="li-dist">10 мин</div><div class="li-name">Медицинские центры</div><div class="li-sub">Клиники рядом</div></div>
+    <div class="li-card"><div class="li-dist">10 мин</div><div class="li-name">Фитнес-клубы</div><div class="li-sub">Несколько вариантов</div></div>
+    <div class="li-card"><div class="li-dist">2 мин</div><div class="li-name">Аптека</div><div class="li-sub">В самом комплексе</div></div>
+    <div class="li-card"><div class="li-dist">10 мин</div><div class="li-name">Стоматологии</div><div class="li-sub">Частные клиники</div></div>
+    <div class="li-card"><div class="li-dist">15 мин</div><div class="li-name">Городские больницы</div><div class="li-sub">Специализированные</div></div>
+    <div class="li-card"><div class="li-dist">Двор</div><div class="li-name">Воркаут-зона 89 м²</div><div class="li-sub">Прямо в ЖК</div></div>
+  </div>
+</section>
+
+<!-- ══════════ УСЛОВИЯ ПОКУПКИ ══════════ -->
+<section id="finance" class="sec-dark">
+  <div>
+    <div class="sec-label"><span class="tag" style="color:var(--gold-light)">Способы покупки</span></div>
+    <h2 class="sec-title">Гибкая<br><em>финансовая экосистема</em></h2>
+    <p class="sec-body">Мы создали условия, чтобы выбор квартиры был таким же комфортным, как жизнь в нашем ЖК.</p>
+  </div>
+  <div class="fin-cards">
+    <div class="fc">
+      <span class="fc-icon">🏦</span>
+      <div class="fc-title">Ипотека от БВУ</div>
+      <p class="fc-desc">Работаем со всеми ведущими банками РК. Менеджер сопровождает на каждом этапе одобрения.</p>
+      <div class="fc-highlight">Первый взнос от 20%</div>
+    </div>
+    <div class="fc featured">
+      <div class="fc-badge">Популярно</div>
+      <span class="fc-icon">📅</span>
+      <div class="fc-title">Рассрочка</div>
+      <p class="fc-desc">Рассрочка от застройщика без переплат. Удобный график платежей до момента сдачи.</p>
+      <div class="fc-highlight">Без процентов · До сдачи</div>
+    </div>
+    <div class="fc">
+      <span class="fc-icon">💰</span>
+      <div class="fc-title">100% оплата</div>
+      <p class="fc-desc">Единовременная оплата — лучшие условия и первый выбор этажа и вида из окна.</p>
+      <div class="fc-highlight">Специальные условия</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ СРАВНЕНИЕ ══════════ -->
+<section id="comparison" class="sec-warm">
+  <div>
+    <div class="sec-label"><span class="tag">Сравнение</span></div>
+    <h2 class="sec-title">LEVEL против<br><em>«обычной новостройки»</em></h2>
+  </div>
+  <div class="compare-wrap">
+    <div class="cr"><div class="cc hdr feat">Характеристика</div><div class="cc hdr level-col">ЖК LEVEL</div><div class="cc hdr">Типичная новостройка</div></div>
+    <div class="cr"><div class="cc feat">Террасы с видом на горы</div><div class="cc"><span class="yes">✓</span></div><div class="cc"><span class="no">✗</span></div></div>
+    <div class="cr"><div class="cc feat">Коворкинг внутри ЖК</div><div class="cc"><span class="yes">✓</span></div><div class="cc"><span class="no">✗</span></div></div>
+    <div class="cr"><div class="cc feat">Двор без машин</div><div class="cc"><span class="yes">✓</span></div><div class="cc"><span class="no">✗</span> редко</div></div>
+    <div class="cr"><div class="cc feat">Резервный генератор</div><div class="cc"><span class="yes">✓</span></div><div class="cc"><span class="no">✗</span></div></div>
+    <div class="cr"><div class="cc feat">Сейсмоустойчивость</div><div class="cc gold-val">9 баллов</div><div class="cc">Стандарт</div></div>
+    <div class="cr"><div class="cc feat">Smart-замки</div><div class="cc"><span class="yes">✓</span></div><div class="cc"><span class="no">✗</span></div></div>
+    <div class="cr"><div class="cc feat">Коммерция на 1 этаже</div><div class="cc"><span class="yes">✓</span> аптека, маркет</div><div class="cc"><span class="no">✗</span></div></div>
+    <div class="cr"><div class="cc feat">Рассрочка 0%</div><div class="cc"><span class="yes">✓</span></div><div class="cc"><span class="no">✗</span> редко</div></div>
+  </div>
+</section>
+
+<!-- ══════════ FAQ ══════════ -->
+<section id="faq" class="sec-ivory">
+  <div>
+    <div class="sec-label"><span class="tag">Вопросы и ответы</span></div>
+    <h2 class="sec-title">Отвечаем <em>честно</em></h2>
+  </div>
+  <div class="faq-wrap">
+    <div class="fq open">
+      <button class="fq-btn" onclick="toggleFaq(this)">Кто такая Galereya Qurylys — это новый застройщик без истории?<span class="fq-arr">+</span></button>
+      <div class="fq-ans">Galereya Qurylys выросла из команды, 8 лет работавшей на первичном рынке через «Галерею Новостроек». За это время участвовала в 150+ жилых проектах. LEVEL — первый авторский проект, где они полностью контролируют качество.</div>
+    </div>
+    <div class="fq open">
+      <button class="fq-btn" onclick="toggleFaq(this)">Когда сдача и что будет, если сроки сдвинутся?<span class="fq-arr">+</span></button>
+      <div class="fq-ans">Плановая сдача — I квартал 2027 года. Сроки закреплены в договоре ДДУ по законодательству РК. За нарушение — неустойка. Застройщик публикует ежемесячные фото-отчёты о ходе строительства.</div>
+    </div>
+    <div class="fq open">
+      <button class="fq-btn" onclick="toggleFaq(this)">Это хорошая инвестиция?<span class="fq-arr">+</span></button>
+      <div class="fq-ans">Рациональные планировки без «пустых» метров — инвестиция в площадь, которая ценится выше. Покупка на стадии строительства фиксирует сегодняшнюю цену. Уникальные фишки (террасы, коворкинг) повышают арендный спрос.</div>
+    </div>
+    <div class="fq open">
+      <button class="fq-btn" onclick="toggleFaq(this)">Как будет обслуживаться комплекс после сдачи?<span class="fq-arr">+</span></button>
+      <div class="fq-ans">«Сдача дома — это только начало». Galereya Qurylys строит в родном городе, поэтому репутация измеряется комфортом жителей долгие годы после переезда. Управляющая компания будет вести обслуживание комплекса.</div>
+    </div>
+    <div class="fq open">
+      <button class="fq-btn" onclick="toggleFaq(this)">Где посмотреть квартиру?<span class="fq-arr">+</span></button>
+      <div class="fq-ans">Офис продаж: улица Гоголя, 20, Алматы. Телефон: +7 (705) 924-92-01. Менеджер проведёт по 3D-турам в стилях Scandi и Elegance для каждой планировки.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CTA ══════════ -->
+<section class="cta-section" id="cta">
+  <div class="cta-bg" style="background-image:url('sunset.jpg')"></div>
+  <div class="cta-overlay"></div>
+  <div class="cta-inner">
+    <div class="sec-label" style="justify-content:center;margin-bottom:20px;"><span class="tag">Следующий шаг</span></div>
+    <h2 class="cta-title">Вы уже знаете<br><em>достаточно</em></h2>
+    <p class="cta-sub">Менеджер расскажет об актуальных ценах, покажет 3D-туры и подберёт подходящую планировку. Без скриптов и давления.</p>
+    <div class="cta-btns">
+      <a href="tel:+77059249201" class="btn-primary">📞 +7 (705) 924-92-01</a>
+      <a href="https://wa.me/77776741111" class="btn-outline">WhatsApp</a>
+    </div>
+    <p class="cta-note">Офис продаж: ул. Гоголя, 20, Алматы · Ответим в течение 15 минут</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft">
+    <div>
+      <a class="ft-logo" href="#">
+        <img src="logo.png" alt="LEVEL by Galereya Qurylys" class="ft-logo-img">
+      </a>
+    </div>
+    <div class="ft-info">
+      <p>ЖК LEVEL — авторский жилой комплекс<br>Срок сдачи: I квартал 2027 года</p>
+      <p style="margin-top:10px;">
+        <a href="tel:+77059249201">+7 (705) 924-92-01</a><br>
+        <a href="#">ул. Гоголя, 20, Алматы</a>
+      </p>
+    </div>
+  </div>
+  <div class="fb">
+    <p>© 2026 Galereya Qurylys. Все права защищены.</p>
+    <p>Информация носит ознакомительный характер и не является публичной офертой</p>
+  </div>
+</footer>
+
+<a href="tel:+77059249201" class="sticky-call" id="stickyCall">📞 Позвонить</a>
+<script src="main.js"></script>
+</body>
+</html>
